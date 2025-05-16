@@ -1,0 +1,9 @@
+{
+  "Pipeline" : [
+    {
+      "Tool" : "python",
+      "Command" : ["project.py"],
+      "Type" : "deploy"
+    }
+  ]
+}
