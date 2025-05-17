@@ -3,7 +3,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import time
 import os
 
-serverPort = int(os.environ['ray-port'])
+serverPort = int(os.environ['RAY_PORT'])
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
