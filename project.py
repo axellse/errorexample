@@ -1,5 +1,4 @@
 #https://pythonbasics.org/webserver/
-asasdasda
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import time
 import os
