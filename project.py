@@ -18,7 +18,6 @@ class MyServer(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":        
     webServer = HTTPServer(("127.0.0.1", serverPort), MyServer)
-    print("Server started http://%s:%s" % (hostName, serverPort))
 
     try:
         webServer.serve_forever()
